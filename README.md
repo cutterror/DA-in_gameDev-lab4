@@ -39,12 +39,19 @@
 - Перцептрон успешно обучился после 4й этирации выведя значение totalError равное 0:
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/3.png)
-- При подстановке данных получены правильные значения, отражающие логику логического "или"
+- При подстановке данных получены правильные значения, отражающие логику логического "или":
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/4.png)
 
 #### AND
 -Аналогично создала элементы в Ts, описывающие логику AND:
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/AND/1.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/AND/2.png)
+
+-Перцептрон успешно обучился после 3й этирации, получен правильный вывод, отражающий логику логического "и":
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/AND/3.png)
 
 #### .
 
