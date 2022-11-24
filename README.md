@@ -28,19 +28,22 @@
 ### В проекте Unity реализовать перцептрон, который умеет производить вычисления: OR, AND, NAND и XOR.
 Ход работы:
 - Cоздала новый пустой 3D проект на Unity и добавила пустой объект, навесив на него скрипт, описывающий работу перцептрона.
-#### 1) OR
-- В Unity создала элементы в Ts, описывающие логику OR.
-- !Произошел баг интерфейса при создании первого элемента, но смогла заполнить необходимые значения (Elem = 0, Elem = 0, Output = 0)
+#### OR
+- В Unity создала элементы в Ts, описывающие логику OR:
+!Произошел баг интерфейса при создании первого элемента, но смогла заполнить необходимые значения (Elem = 0, Elem = 0, Output = 0)
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/1.png)
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/2.png)
 - Запустила при значении Train(8)
-- Перцептрон успешно обучился выведя значение totalError равное 0:
+- Перцептрон успешно обучился после 4й этирации выведя значение totalError равное 0:
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/3.png)
 - При подстановке данных получены правильные значения, отражающие логику логического "или"
+
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/4.png)
 
+#### AND
+-Аналогично создала элементы в Ts, описывающие логику AND:
 
 #### .
 
