@@ -44,14 +44,46 @@
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/4.png)
 
 #### AND
--Аналогично создала элементы в Ts, описывающие логику AND:
+- Аналогично создала элементы в Ts, описывающие логику AND:
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/AND/1.png)
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/AND/2.png)
 
--Перцептрон успешно обучился после 3й этирации, получен правильный вывод, отражающий логику логического "и":
+- Запустила при значении Train(8)
+- Перцептрон успешно обучился после 3й этирации, получен правильный вывод, отражающий логику логического "и":
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/AND/3.png)
+
+#### NAND
+- Аналогично создала элементы в Ts, описывающие логику NAND:
+
+!Из-за бага интерфейса получилось ввести значения вывода первого элемента Ts только при 5ти элементах, лишний после удалила
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/NAND/1.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/NAND/2.png)
+
+- Запустила при значении Train(8)
+- Перцептрон успешно обучился только после 8й этирации, получен правильный вывод, отражающий логику "не и":
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/NAND/3.png)
+
+#### XOR
+
+- Аналогично создала элементы в Ts, описывающие логику XOR:
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/XOR/1.png)
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/XOR/2.png)
+
+- Запустила при значении Train(8)
+- Перцептрон не обучился с первого раза за 8 этираций, получен неправильный вывод:
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/XOR/3.png)
+
+- Перезапустила несколько раз при Train(8), перцептрон так же не обучался со значением totalError равным 4.
+- Увеличила количество эпох до 16, 32, 100, 300, 1000. Значение totalError так же равно 4.
+- Из информации, данной в лекции и найденной в интернете, ясно, что однослойного перцептрона для решения задачи XOR не достаточно.
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/XOR/4.png)
 
 #### .
 
