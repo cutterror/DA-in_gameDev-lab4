@@ -91,19 +91,59 @@
 ## Задание 2
 ### Построить графики зависимости количества эпох от ошибки обучения. Указать от чего зависит необходимое количество эпох обучения.
 Ход работы:
-Составила графики зависимости значения TotalError(среднее количество от 10ти попыток) от количества эпох по задачам:
+Составила графики зависимости значения TotalError(среднее количество от 10ти попыток) от количества эпох по задачам. 
 
-#### График OR
+- Для подсчёта статистики изменила скрипт, чтобы на консоль выводилось среднее значение TotalError за 1000 попыпок по переменному количеству эпох(от 1 до 15):
+
+```py
+	double sumTotalError = 0;
+
+	void Train(int epochs)
+	{
+		InitialiseWeights();
+		
+		for(int e = 0; e < epochs; e++)
+		{
+			totalError = 0;
+			for(int t = 0; t < ts.Length; t++)
+			{
+				UpdateWeights(t);
+			}
+			sumTotalError += totalError;
+		}
+	}
+
+	void Start () {
+		int attemptsNumber = 1000;
+		int maxEpochsNumber = 15;
+		for (int epoch = 1; epoch <= maxEpochsNumber; epoch++)
+        {
+			for (int attempt = 0; attempt < attemptsNumber; attempt++)
+			{
+				Train(epoch);
+			}
+			double meanTotalError = sumTotalError / (attemptsNumber * epoch);
+			Debug.Log("Mean total error over " + epoch + " epochs: " + meanTotalError);
+			sumTotalError = 0;
+		}
+	}
+```
+
+Пример вывода (OR):
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num2/1.png)
 
-#### График AND
+#### График OR
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num2/2.png)
 
-#### График NAND
+#### График AND
 
 ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num2/3.png)
+
+#### График NAND
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num2/4.png)
 
 ## Задание 3
 ### Построить визуальную модель работы перцептрона на сцене Unity. 
