@@ -117,7 +117,7 @@
 		int attemptsNumber = 1000;
 		int maxEpochsNumber = 15;
 		for (int epoch = 1; epoch <= maxEpochsNumber; epoch++)
-        {
+        	{
 			for (int attempt = 0; attempt < attemptsNumber; attempt++)
 			{
 				Train(epoch);
