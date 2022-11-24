@@ -32,6 +32,7 @@
 - В Unity создала элементы в Ts, описывающие логику OR.
 - !Произошел баг интерфейса при создании первого элемента, но смогла заполнить необходимые значения (Elem = 0, Elem = 0, Output = 0)
 - ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/1.png)
+- ![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num1/OR/2.png)
 
 
 #### .
