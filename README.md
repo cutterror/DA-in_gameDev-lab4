@@ -92,6 +92,17 @@
 ### Построить графики зависимости количества эпох от ошибки обучения. Указать от чего зависит необходимое количество эпох обучения.
 Ход работы:
 
+#### График OR
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num2/1.png)
+
+#### График AND
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num2/2.png)
+
+#### График NAND
+
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/num2/3.png)
 
 ## Задание 3
 ### Построить визуальную модель работы перцептрона на сцене Unity. 
