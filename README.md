@@ -151,7 +151,7 @@
 ### Построить визуальную модель работы перцептрона на сцене Unity. 
 Ход работы:
 
-
+![Image alt](https://github.com/cutterror/DA-in_gameDev-lab4/blob/main/images/1.gif)
 
 ## Выводы
 
